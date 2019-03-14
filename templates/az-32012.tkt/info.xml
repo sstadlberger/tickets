@@ -1,0 +1,493 @@
+<ticket>
+	<basic>
+		<design-name>
+			A4 - Avery / Zweckform 32011/32012/C32011
+		</design-name>
+		<main-lang>
+			de
+		</main-lang>
+		<page-width>
+			210
+		</page-width>
+		<page-height>
+			297
+		</page-height>
+		<ticket-width>
+			85
+		</ticket-width>
+		<ticket-height>
+			54
+		</ticket-height>
+		<border-top>
+			13.5
+		</border-top>
+		<border-left>
+			15
+		</border-left>
+		<space-vertical>
+			10
+		</space-vertical>
+		<space-horizontal>
+			0
+		</space-horizontal>
+		<tickets-rows>
+			5
+		</tickets-rows>
+		<tickets-colums>
+			2
+		</tickets-colums>
+		<reg-distance>
+			2
+		</reg-distance>
+		<reg-length>
+			2
+		</reg-length>
+	</basic>
+	<variants>
+		<variant name="blau">
+			<colour name="light">
+				100 133 229
+			</colour>
+			<colour name="normal">
+				17 37 88
+			</colour>
+			<colour name="dark">
+				10 18 41
+			</colour>
+			<colour name="white">
+				255 255 255
+			</colour>
+			<colour name="whiteinvert">
+				255 255 255
+			</colour>
+			<image name="bg">
+				bg.png
+			</image>
+			<image name="dummy">
+				none
+			</image>
+		</variant>
+		<variant name="rot">
+			<colour name="light">
+				198 131 131
+			</colour>
+			<colour name="normal">
+				71 33 33
+			</colour>
+			<colour name="dark">
+				34 16 16
+			</colour>
+			<colour name="white">
+				255 255 255
+			</colour>
+			<colour name="whiteinvert">
+				255 255 255
+			</colour>
+			<image name="bg">
+				bg_rot.png
+			</image>
+			<image name="dummy">
+				none
+			</image>
+		</variant>
+		<variant name="LotR">
+			<colour name="light">
+				237 203 69
+			</colour>
+			<colour name="normal">
+				69 60 41
+			</colour>
+			<colour name="dark">
+				145 119 31
+			</colour>
+			<colour name="white">
+				255 255 255
+			</colour>
+			<colour name="whiteinvert">
+				255 255 255
+			</colour>
+			<image name="bg">
+				bg_lotr.png
+			</image>
+			<image name="dummy">
+				none
+			</image>
+		</variant>
+		<variant name="Matrix">
+			<colour name="light">
+				51 127 65
+			</colour>
+			<colour name="normal">
+				30 82 39
+			</colour>
+			<colour name="dark">
+				3 16 6
+			</colour>
+			<colour name="white">
+				255 255 255
+			</colour>
+			<colour name="whiteinvert">
+				255 255 255
+			</colour>
+			<image name="bg">
+				bg_matrix.png
+			</image>
+			<image name="dummy">
+				none
+			</image>
+		</variant>
+		<variant name="s/w">
+			<colour name="light">
+				255 255 255
+			</colour>
+			<colour name="normal">
+				0 0 0
+			</colour>
+			<colour name="dark">
+				255 255 255
+			</colour>
+			<colour name="white">
+				255 255 255
+			</colour>
+			<colour name="whiteinvert">
+				0 0 0
+			</colour>
+			<image name="bg">
+				none
+			</image>
+			<image name="dummy">
+				none
+			</image>
+		</variant>
+	</variants>
+	<template>
+		<object type="rectangle">
+			<x-cord>
+				-3
+			</x-cord>
+			<y-cord>
+				0
+			</y-cord>
+			<width>
+				63
+			</width>
+			<height>
+				27
+			</height>
+			<rect-colour>
+				dark
+			</rect-colour>
+		</object>
+		<object type="rectangle">
+			<x-cord>
+				60
+			</x-cord>
+			<y-cord>
+				0
+			</y-cord>
+			<width>
+				28
+			</width>
+			<height>
+				27
+			</height>
+			<rect-colour>
+				light
+			</rect-colour>
+		</object>
+		<object type="rectangle">
+			<x-cord>
+				-3
+			</x-cord>
+			<y-cord>
+				27
+			</y-cord>
+			<width>
+				91
+			</width>
+			<height>
+				27
+			</height>
+			<rect-colour>
+				normal
+			</rect-colour>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				5
+			</x-cord>
+			<y-cord>
+				10
+			</y-cord>
+			<text>
+				film
+			</text>
+			<text-colour>
+				whiteinvert
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				B
+			</style>
+			<size>
+				16
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				5
+			</x-cord>
+			<y-cord>
+				15
+			</y-cord>
+			<text>
+				subtitle
+			</text>
+			<text-colour>
+				whiteinvert
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				B
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				5
+			</x-cord>
+			<y-cord>
+				22
+			</y-cord>
+			<text>
+				seat
+			</text>
+			<text-colour>
+				whiteinvert
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				N
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				72
+			</x-cord>
+			<y-cord>
+				14
+			</y-cord>
+			<text>
+				zeit
+			</text>
+			<text-colour>
+				whiteinvert
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				B
+			</style>
+			<size>
+				16
+			</size>
+			<align>
+				center
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				72
+			</x-cord>
+			<y-cord>
+				19
+			</y-cord>
+			<text>
+				uhr
+			</text>
+			<text-colour>
+				whiteinvert
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				N
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				center
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				72
+			</x-cord>
+			<y-cord>
+				43
+			</y-cord>
+			<text>
+				tag
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				B
+			</style>
+			<size>
+				16
+			</size>
+			<align>
+				center
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				72
+			</x-cord>
+			<y-cord>
+				34.7
+			</y-cord>
+			<text>
+				monat
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				N
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				center
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				72
+			</x-cord>
+			<y-cord>
+				50.5
+			</y-cord>
+			<text>
+				jahr
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				N
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				center
+			</align>
+		</object>
+		<object type="dynamic-picture">
+			<x-cord>
+				0
+			</x-cord>
+			<y-cord>
+				27
+			</y-cord>
+			<width>
+				60
+			</width>
+			<height>
+				27
+			</height>
+			<pict-id>
+				bg
+			</pict-id>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				5
+			</x-cord>
+			<y-cord>
+				34.7
+			</y-cord>
+			<text>
+				kino
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				B
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				5
+			</x-cord>
+			<y-cord>
+				38
+			</y-cord>
+			<text>
+				info
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				N
+			</style>
+			<size>
+				8
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+	</template>
+</ticket>

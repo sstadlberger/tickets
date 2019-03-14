@@ -1,0 +1,357 @@
+<ticket>
+	<basic>
+		<design-name>
+			Letter - Gift Certificate
+		</design-name>
+		<main-lang>
+			en
+		</main-lang>
+		<page-width>
+			215.9
+		</page-width>
+		<page-height>
+			279.4
+		</page-height>
+		<ticket-width>
+			177.8
+		</ticket-width>
+		<ticket-height>
+			228.6
+		</ticket-height>
+		<border-top>
+			25.4
+		</border-top>
+		<border-left>
+			19.05
+		</border-left>
+		<space-vertical>
+			20
+		</space-vertical>
+		<space-horizontal>
+			20
+		</space-horizontal>
+		<tickets-rows>
+			1
+		</tickets-rows>
+		<tickets-colums>
+			1
+		</tickets-colums>
+		<reg-distance>
+			2
+		</reg-distance>
+		<reg-length>
+			5
+		</reg-length>
+	</basic>
+	<variants>
+		<variant name="star">
+			<colour name="white">
+				255 255 255
+			</colour>
+			<colour name="white2">
+				255 255 255
+			</colour>
+			<image name="bg">
+				bg_star.jpg
+			</image>
+			<image name="bg2">
+				bg_star.jpg
+			</image>
+		</variant>
+		<variant name="lights">
+			<colour name="white">
+				255 255 255
+			</colour>
+			<colour name="white2">
+				255 255 255
+			</colour>
+			<image name="bg">
+				bg_lights.jpg
+			</image>
+			<image name="bg2">
+				bg_lights.jpg
+			</image>
+		</variant>
+		<variant name="tree">
+			<colour name="white">
+				255 255 255
+			</colour>
+			<colour name="white2">
+				255 255 255
+			</colour>
+			<image name="bg">
+				bg_tree.jpg
+			</image>
+			<image name="bg2">
+				bg_tree.jpg
+			</image>
+		</variant>
+		<variant name="snow">
+			<colour name="white">
+				0 0 0
+			</colour>
+			<colour name="white2">
+				0 0 0
+			</colour>
+			<image name="bg">
+				bg_snow.jpg
+			</image>
+			<image name="bg2">
+				bg_snow.jpg
+			</image>
+		</variant>
+	</variants>
+	<template>
+		<object type="dynamic-picture">
+			<x-cord>
+				0
+			</x-cord>
+			<y-cord>
+				114.3
+			</y-cord>
+			<width>
+				177.8
+			</width>
+			<height>
+				114.3
+			</height>
+			<pict-id>
+				bg
+			</pict-id>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				14
+			</x-cord>
+			<y-cord>
+				158
+			</y-cord>
+			<text>
+				film
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				B
+			</style>
+			<size>
+				18
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				14
+			</x-cord>
+			<y-cord>
+				163
+			</y-cord>
+			<text>
+				subtitle
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				N
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				14
+			</x-cord>
+			<y-cord>
+				181
+			</y-cord>
+			<text>
+				kino
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				B
+			</style>
+			<size>
+				18
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				14
+			</x-cord>
+			<y-cord>
+				186
+			</y-cord>
+			<text>
+				info
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				N
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				14
+			</x-cord>
+			<y-cord>
+				204
+			</y-cord>
+			<text>
+				seat
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				B
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				14
+			</x-cord>
+			<y-cord>
+				213
+			</y-cord>
+			<text>
+				monat
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				N
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				38
+			</x-cord>
+			<y-cord>
+				213
+			</y-cord>
+			<text>
+				tag
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				B
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				46
+			</x-cord>
+			<y-cord>
+				213
+			</y-cord>
+			<text>
+				jahr
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				N
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+		<object type="dynamic-text">
+			<x-cord>
+				14
+			</x-cord>
+			<y-cord>
+				218
+			</y-cord>
+			<text>
+				zeit
+			</text>
+			<text-colour>
+				white
+			</text-colour>
+			<font>
+				Helvetica
+			</font>
+			<style>
+				N
+			</style>
+			<size>
+				12
+			</size>
+			<align>
+				left
+			</align>
+		</object>
+	</template>
+</ticket>
